@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite --host :: --port 3000",
     "scripts": {
-  "build": "node tools/generate-llms.js || true && npx vite build"
+  "scripts": {
+  "build": "vite build"
+}
 }
     "preview": "vite preview --host :: --port 3000",
     "lint": "eslint . --quiet"
